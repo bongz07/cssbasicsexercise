@@ -1,0 +1,22 @@
+  table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+th, td {
+    border: 1px solid #c4dcf3;
+    padding: 8px; /*to add space inside cells*/
+    font-weight: bold;
+}
+
+tfoot {
+    text-align: left;
+}
+
+th {
+    background-color: #427fef;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: #eef7ff; /* Light gray for odd rows */
+}
